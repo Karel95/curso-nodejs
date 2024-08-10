@@ -1,0 +1,19 @@
+{
+  "name": "03-node-project",
+  "version": "1.0.0",
+  "description": "Proyecto con Node JS.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "prebuild": "rimraf dist",
+    "build": "babel src --out-dir dist",
+    "console": "echo 'Hello world!' && npm run dev"
+  },
+  "author": "Karel Dev",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

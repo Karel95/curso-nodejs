@@ -31,21 +31,11 @@ node_modules
 env_var:
 npm i env-var
 
-express.js:
 
-
-mongoDB:
-
-
-mongoose:
-
-
-railway???:
-
-
-docker:
-
-
-body-parcer:
-
-
+proximamente:
+-express.js
+-mongoDB
+-mongoose
+-railway???
+-docker
+-body-parcer

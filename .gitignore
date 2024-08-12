@@ -25,3 +25,7 @@ dist-ssr
 
 00-TYPESCRIPT
 01-VITE+REACT+TS
+02-file system/node_modules
+03-node project/node_modules
+04-json-server/node_modules
+

@@ -13,6 +13,7 @@ package.json:
   }
 
 nodemon:
+para ejecutar automaticamente al guardar los cambios
 https://nodemon.io/
 npm install --save-dev nodemon
 
@@ -20,5 +21,31 @@ npm install --save-dev nodemon
     "nodemon": "^3.1.4"
   }
 
+dotenv:
+npm i dotenv
+
+.gitignore:
+.env
+node_modules
+
+env_var:
+npm i env-var
+
+express.js:
+
+
+mongoDB:
+
+
+mongoose:
+
+
+railway???:
+
+
+docker:
+
+
+body-parcer:
 
 

@@ -13,7 +13,6 @@ db.json
 postman:
 HTTP methods (GET, POST, PUT, PATCH, and DELETE)
 
-
 Categorías de Códigos HTTP:
 1xx: Informativos
 100 Continue: El servidor ha recibido los encabezados de la solicitud y el cliente puede continuar con la solicitud.
@@ -45,5 +44,3 @@ Categorías de Códigos HTTP:
 503 Service Unavailable: El servidor no está disponible temporalmente, generalmente debido a mantenimiento o sobrecarga.
 504 Gateway Timeout: El servidor, actuando como una puerta de enlace o proxy, no recibió una respuesta a tiempo del servidor de origen.
 Estos códigos son esenciales para el manejo de errores en aplicaciones web y para comprender cómo los servidores y clientes interactúan en la web.
-
-

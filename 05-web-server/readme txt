@@ -1,0 +1,17 @@
+
+npm init
+
+npm install --save-dev nodemon
+
+"scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+
+npm run dev
+
+npm i dotenv
+
+npm i env-var
+

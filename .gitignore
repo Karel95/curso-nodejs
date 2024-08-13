@@ -28,4 +28,7 @@ dist-ssr
 02-file system/node_modules
 03-node project/node_modules
 04-json-server/node_modules
+05-web-server/node_modules
+05-web-server/.env
+
 

@@ -17,3 +17,4 @@ npm i env-var
 
 npm i express
 
+"type": "module",

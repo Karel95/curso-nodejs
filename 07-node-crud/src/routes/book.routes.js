@@ -1,7 +1,25 @@
 const express = require('express');
 const Book = require('../models/book.model');
-
 const router = express.Router();
+
+//MIDDLEWARE:
+const getBook = async(req, res, next) => {
+    let book;
+    const bookId = req.params;
+    if (!bookId.match(/^[0-9a-fA-F]{24}$/)) {
+        return res.status(404).json({ message: 'El ID del libro no es valido.' });
+    }
+    try {
+        book = await Book.findById(bookId);
+        if (!book) {
+            return res.status(404).json({ message: 'Libro no encontrado' });
+        }
+    } catch (error) {
+        return res.status(500).json({ message: error.message });
+    }
+    res.book = book;
+    next();
+}
 
 //.get() Obtener todos los libros:
 router.get('/', async (req, res) => {

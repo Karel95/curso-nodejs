@@ -32,6 +32,6 @@ dist-ssr
 05-web-server/.env
 06-web-server-es6/node_modules
 06-web-server-es6/.env
+07-node-crud/mongo-data
 07-node-crud/node_modules
 07-node-crud/.env
-

@@ -11,4 +11,9 @@ npm i mongoose
 
 npm i body-parser
 
+docker compose up -d
+
+npm run dev
+
+Docker, MongoDBCompass & Postman
 

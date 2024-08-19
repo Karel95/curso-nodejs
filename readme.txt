@@ -29,7 +29,7 @@ https://tableplus.com/download
 
 DOCKER
 https://www.docker.com/get-started/
-(aun no lo instalo)
+Para instalar, habilitar Virtualization en la BIOS.
 
 
 TYPESCRIPT
